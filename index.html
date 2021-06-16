@@ -45,7 +45,6 @@
                         <a href="" class="nav-item nav-link" id="team-menu">Time</a>
                         <a href="" class="nav-item nav-link" id="portfolio-menu">Projetos</a>
                         <a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
-
                     </div>
                 </div>
 
@@ -242,14 +241,75 @@
             <div id="apply-area">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-6 apply-box" id="company-img"></div>
-                        <div class="col-md-6 apply-box" id="pattern-img">
-                        <h4>Gosta de desafios?</h4>
-                        <p>Temos várias posições abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
-                        <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
-                        <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
-                        <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                        <!--<div class="col-md-6 apply-box" id="company-img"></div>-->                        
+                        <div class="col-md-12 apply-box" id="pattern-img">
+                            <div class="pattern-filtro">
+                                <h4>Gosta de desafios?</h4>
+                                <p>Temos várias posições abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
+                                <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
+                                <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
+                                <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Portfólio -->
+            <div id="portfolio-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Conheça nossos projetos</h3>
+                        </div>
+                        <div class="col-md-12" id="filter-btn-box">
+                            <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                            <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+                            <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+                            <button class="main-btn filter-btn" id="seo-btn">SEO</button>
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Letter -->
+            <div id="news-area">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Fique por dentro das novidades</h3>                        
+                    </div>
+                    <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software.</p>
+                    <form action="">
+                        <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                        <input type="submit" id="news-btn" value="Inscrever">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Deseja fazer um orçamento sem compromisso</p>
+                        <button class="main-btn" id="call-btn">Enviar</button>
                     </div>
                 </div>
             </div>

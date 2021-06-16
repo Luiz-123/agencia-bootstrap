@@ -93,9 +93,44 @@ $( document ).ready(function() {
     // Parallax 
     setTimeout(function() {
       $('#data-area').parallax({imageSrc:'img/cidadeparallax.png'});  
-      $('#apply-area').parallax({imageSrc:'img/pattern.png'});    
+      $('#apply-area').parallax({imageSrc:'img/pattern.jpg'});    
     }, 250);
+
+    // Filtro do Portfólio
+    $('.filter-btn').on('click', function() {
+      let type = $(this).attr('id');
+      let boxes = $('.project-box');
+
+      $('.main-btn').removeClass('active');
+      $(this).addClass('active');
+
+      if(type == 'dsg-btn') {
+        eachBoxes('dsg', boxes)
+      }else if(type == 'dev-btn') {
+        eachBoxes('dev', boxes)
+      }else if(type == 'seo-btn') {
+        eachBoxes('seo', boxes)
+      }else {
+        eachBoxes('all', boxes)
+      }
+    });
+
+    function eachBoxes(type, boxes) {
+      if(type == 'all') {
+        $(boxes).fadeIn();
+      }else {
+        $(boxes).each(function() {
+          if(!$(this).hasClass(type)) {
+            $(this).fadeOut('slow');
+          }else {
+            $(this).fadeIn();
+          }
+        });
+      }
+    }
     
 });
 
-/*background-color: #3513D4; background-color: #270cc0; #3a2e7c; #960396; #330935*/
+    
+
+
