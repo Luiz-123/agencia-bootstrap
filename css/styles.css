@@ -561,12 +561,13 @@ header, .navbar {
     }
 
     #mainSlider .carousel-caption {
-        top: 0%;
+        top: 0;
     }
 
     #mainSlider .carousel-caption h2 {
         font-size: 18px;
-        margin-bottom: 22px;
+        margin-top: 15px;
+        margin-bottom: 18px;
     }
 
     #mainSlider .carousel-caption p {
@@ -630,12 +631,13 @@ header, .navbar {
     }
 
     #email-input {
-        width: 90%;
+        width: 85%;
+        margin-left: 0;
     }
 
-    /* CTA */
+    /* CTA */   
     #call-area p, #call-area #call-btn {
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 0;        
         margin: 0;
         width: 80%;
