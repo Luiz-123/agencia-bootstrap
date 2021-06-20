@@ -210,10 +210,10 @@ header, .navbar {
 }
 
 .card:hover {
-    background-color: #9ddff1;
-    color: #fff;
+    background-color: #baecfc;
+    color: rgb(8, 71, 107);
     border-color: #fff;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .card:hover img{
@@ -223,7 +223,12 @@ header, .navbar {
 }
 
 .card:hover p{
-    color: #0a4150;
+    color: #553905;
+    /*color: #0a4150; #110331; #241801;*/
+}
+
+.card-text {
+    color: #085469;
 }
 
 /* Trabalhe Conosco */
