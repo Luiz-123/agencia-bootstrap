@@ -223,12 +223,12 @@ header, .navbar {
 }
 
 .card:hover p{
-    color: #553905;
-    /*color: #0a4150; #110331; #241801;*/
+    color: #160d00;
+    /*color: #0a4150; #110331; #241801; #553905;*/
 }
 
 .card-text {
-    color: #085469;
+    color: #063d4b;
 }
 
 /* Trabalhe Conosco */
@@ -322,8 +322,10 @@ header, .navbar {
 
 .project-box:hover img {
     cursor: pointer;
-    opacity: 70%;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    opacity: 90%;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
 }
 
 /* News Letter */
