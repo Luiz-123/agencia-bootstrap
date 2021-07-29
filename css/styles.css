@@ -48,7 +48,7 @@ header, .navbar {
 }
 
 #navbar-links a:hover {
-    color: #106f8a;
+    color: #19afd8;
 }
 
 .navbar-expand-lg .navbar-nav .navbar-link {
@@ -67,7 +67,7 @@ header, .navbar {
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;  
     opacity: 98%;
-    filter: brightness(85%);  
+    filter: brightness(80%);  
     /*filter: grayscale(20%);*/ 
 }
 
@@ -101,8 +101,8 @@ header, .navbar {
 
 .main-btn:hover {
     text-decoration: none;
-    color: #fff;
-    background-color: transparent;
+    color: #0a4150;
+    background-color: #fff;
     border-color: #fff;
 }
 
@@ -182,7 +182,7 @@ header, .navbar {
 }
 
 .service-box:hover > i, .service-box:hover > h4 {
-    color: #40caf0;
+    color: rgba(130, 104, 228, 0.7); 
     cursor: grab;
 }
 
@@ -210,10 +210,10 @@ header, .navbar {
 }
 
 .card:hover {
-    background-color: #baecfc;
+    background-color: #d6f0f8;
     color: rgb(8, 71, 107);
     border-color: #fff;
-    cursor: pointer;    
+    cursor: pointer;        
 }
 
 .card:hover img{
@@ -223,12 +223,12 @@ header, .navbar {
 }
 
 .card:hover p{
-    color: #160d00;
+    color: rgba(27, 15, 80, 0.7);
     /*color: #0a4150; #110331; #241801; #553905;*/
 }
 
 .card-text {
-    color: #063d4b;
+    color: rgba(24, 15, 54, 0.7);
 }
 
 /* Trabalhe Conosco */
@@ -267,9 +267,9 @@ header, .navbar {
 }
 
 .pattern-filtro {
-    background: rgba(0,0,0, 0.7);  
+    background: rgba(42, 28, 92, 0.7);  
     opacity: 90%;  
-    padding: 10px;    
+    padding: 10px;
 }
 
 #apply-btn {
@@ -320,9 +320,13 @@ header, .navbar {
     border-color: #65DAF9;
 }
 
+.project-box img {
+    transition: 0.5s;    
+}
+
 .project-box:hover img {
     cursor: pointer;
-    opacity: 90%;
+    opacity: 80%;
     transform: translateY(-2px);
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
