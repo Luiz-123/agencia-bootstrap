@@ -64,6 +64,10 @@ header, .navbar {
     padding: 0;
 }
 
+#mainSlider {
+    margin-top: 90px;
+}
+
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;  
     opacity: 98%;
@@ -571,7 +575,7 @@ header, .navbar {
     #mainSlider {
         margin-top: 90px;
     }
-
+    
     #mainSlider .carousel-caption {
         top: 0;
     }
