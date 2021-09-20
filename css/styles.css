@@ -597,13 +597,7 @@ header, .navbar {
     .carousel-caption .main-btn {
         font-size: 14px;
     }
-
-    .main-btn {
-        background-color: transparent;
-        color: #fff;
-        border-color: #fff;
-    }
-
+    
     /* About */
     .main-title {
         font-size: 25px;
