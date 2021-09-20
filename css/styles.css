@@ -575,7 +575,7 @@ header, .navbar {
     #mainSlider {
         margin-top: 90px;
     }
-    
+        
     #mainSlider .carousel-caption {
         top: 0;
     }
@@ -596,6 +596,12 @@ header, .navbar {
 
     .carousel-caption .main-btn {
         font-size: 14px;
+    }
+
+    .main-btn {
+        background-color: transparent;
+        color: #fff;
+        border-color: #fff;
     }
 
     /* About */
