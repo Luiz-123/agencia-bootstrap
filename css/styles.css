@@ -238,7 +238,7 @@ header, .navbar {
 
 /* Trabalhe Conosco */
 #apply-area {
-    height: 530px;
+    height: 80vh;
 }
 
 #apply-area .container-fluid, #apply-area .row{
@@ -263,18 +263,19 @@ header, .navbar {
 
 #pattern-img h4 {
     margin-top: 6%;
-    margin-bottom: 40px;
-    text-transform: uppercase;
+    margin-bottom: 80px;
+    text-transform: capitalize;
 }
 
 #pattern-img p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .pattern-filtro {
     background: rgba(42, 28, 92, 0.7);  
     opacity: 90%;  
-    padding: 10px;
+    padding: 30px;
+    height: 65vh;
 }
 
 #apply-btn {
@@ -283,7 +284,7 @@ header, .navbar {
     width: 180px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 6%;
     background-color: transparent;    
     color:#03c4fa;
@@ -566,11 +567,11 @@ header, .navbar {
     #call-area p, #call-area #call-btn {
         font-size: 16px;
     }
-
+    
 }
 
 /* Responsive */
-@media(max-width: 425px) {
+@media(max-width: 480px) {
     /* Slider */
     #mainSlider {
         margin-top: 90px;
@@ -618,12 +619,7 @@ header, .navbar {
         width: 50%;
         margin-bottom: 30px;
     }
-
-    /* Apply */
-    #apply-area {
-        height: auto;
-    }
-
+   
     /* Filter */
     #portfolio-area .filter-btn {
         margin-bottom: 20px;
@@ -665,6 +661,32 @@ header, .navbar {
     #contact-area .contact-box {
         border: none;
         margin-bottom: 0;
+    }
+
+    /* Trabalhe Conosco */
+    #apply-area {
+        height: 100vh;
+    }
+
+    #pattern-img h4 {
+        margin-top: 6%;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+    }
+
+    #pattern-img p {
+        margin-bottom: 20px;
+    }
+
+    .pattern-filtro {     
+        padding: 10px;
+        height: 85vh;
+        margin-top: -12px;
+    }
+
+    #apply-btn {  
+        margin-top: 40px;
+        margin-bottom: 6%;        
     }
    
 }
