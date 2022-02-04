@@ -701,6 +701,16 @@ header, .navbar {
         margin-top: 15px;
         margin-bottom: 18px;
     }
+
+    #apply-area {
+        height: 118vh;
+    }
+
+    .pattern-filtro {     
+        padding: 10px;
+        height: 100vh;
+        margin-top: -12px;
+    }
   
 }
 
