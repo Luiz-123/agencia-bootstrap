@@ -665,7 +665,7 @@ header, .navbar {
 
     /* Trabalhe Conosco */
     #apply-area {
-        height: 100vh;
+        height: 132vh;
     }
 
     #pattern-img h4 {
@@ -675,18 +675,18 @@ header, .navbar {
     }
 
     #pattern-img p {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
-
+    
+    #apply-btn {  
+        margin-top: 50px;
+        margin-bottom: 6%;        
+    }
+    
     .pattern-filtro {     
         padding: 10px;
-        height: 85vh;
-        margin-top: -12px;
-    }
-
-    #apply-btn {  
-        margin-top: 40px;
-        margin-bottom: 6%;        
+        height: 107vh;
+        margin-top: 12px;
     }
    
 }
@@ -700,18 +700,7 @@ header, .navbar {
         font-size: 18px;
         margin-top: 15px;
         margin-bottom: 18px;
-    }
-
-    #apply-area {
-        height: 118vh;
-    }
-
-    .pattern-filtro {     
-        padding: 10px;
-        height: 100vh;
-        margin-top: -12px;
-    }
-  
+    }  
 }
 
 /* Section Parallax */
